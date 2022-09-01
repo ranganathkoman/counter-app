@@ -1,6 +1,16 @@
 import React from "react";
-
+import {eventIdentify} from '../rudder/eventBuilder';
+const CHARS = 'abcdefghijklmnopqrstuvwxyz1234567890';
 // Stateless Functional Component
+
+const generateName = () => {  
+  let string = '';
+  for(var ii=0; ii<15; ii++){
+    string += CHARS[Math.floor(Math.random() * CHARS.length)];
+  }
+  return string;
+}
+
 
 const NavBar = ({ totalCounters }) => {
   return (
@@ -14,6 +24,16 @@ const NavBar = ({ totalCounters }) => {
           {totalCounters}
         </span>
         Items
+        <button
+          className="btn btn-secondary"
+          onClick={() => {
+            const newUser = generateName();
+            console.log(newUser);
+            eventIdentify(newUser);
+          }}
+        >
+          Switch
+        </button>
       </div>
     </nav>
   );
