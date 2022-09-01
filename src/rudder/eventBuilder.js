@@ -2,8 +2,6 @@ import * as rudderanalytics from "rudder-sdk-js";
 
 const DATAPLANE_URL = "https://rudderstacocr.dataplane.rudderstack.com";
 const WRITE_KEY = "2Dmwv0Hkb18ldTh6cs4S8zuRKEg";
-const RUDDER_USER_PSWD = 'Sep4h2t2$j8L';
-const EXT_DB_URL = "postgres://rangas_pg_user:GNTIQMzdrNgprauUcT7uC11lYjhrXKFf@dpg-cc2q4uha6gdkbg2er0d0-a.singapore-postgres.render.com/rangas_pg";
 
 function rudderInitialize() {
     rudderanalytics.ready(() => {console.log("we are all set!!!")})
