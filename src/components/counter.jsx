@@ -27,6 +27,8 @@ class Counter extends Component {
                     label: "Add",
                     product_id: id, 
                     value: value+1,
+                    key1: "Blah",
+                    key2: "Blah Again",
                     location: {
                       latitude: location.latitude,
                       longitude: location.longitude
