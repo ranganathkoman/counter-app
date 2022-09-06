@@ -4,7 +4,7 @@
   "homepage": "https://ranganathkoman.github.io/counter-app",
   "private": true,
   "engines": {
-    "node": "11.10.0",
+    "node": "^16.10.0",
     "npm": "6.7.0"
   },
   "dependencies": {
@@ -12,8 +12,9 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "2.1.8",
     "rudder-sdk-js": "^2.12.0",
     "typescript": "^3.9.10"

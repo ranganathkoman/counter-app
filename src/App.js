@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "./components/navbar";
 import Counters from "./components/counters";
+import { Routes, Route, NavLink } from "react-router-dom";
 
 class App extends Component {
   state = {
@@ -50,21 +51,33 @@ class App extends Component {
     return (
       <div className="main__wrap">
         <main className="container">
-          <div className="card__box">
-            <NavBar
-              totalCounters={
-                this.state.counters.filter((c) => c.value > 0).length
-              }
-            />
-            <Counters
-              counters={this.state.counters}
-              onReset={this.handleReset}
-              onIncrement={this.handleIncrement}
-              onDecrement={this.handleDecrement}
-              onDelete={this.handleDelete}
-              onRestart={this.handleRestart}
-            />
+          <div>
+            <NavLink to="/" end>Home</NavLink> | 
+            <NavLink to="about"> About</NavLink> |
+            <NavLink to="contact"> Contact</NavLink>
           </div>
+          <Routes>
+            <Route path="/" element={
+              <div className="card__box">
+              <NavBar
+                totalCounters={
+                  this.state.counters.filter((c) => c.value > 0).length
+                }
+              />
+              <Counters
+                counters={this.state.counters}
+                onReset={this.handleReset}
+                onIncrement={this.handleIncrement}
+                onDecrement={this.handleDecrement}
+                onDelete={this.handleDelete}
+                onRestart={this.handleRestart}
+              />
+            </div>
+            }> 
+            </Route>
+            <Route path="about" element={<h1>This is the about page</h1>}></Route>
+            <Route path="contact" element={<h1>This is the contact page</h1>}></Route>
+          </Routes>
         </main>
       </div>
     );

@@ -11,7 +11,6 @@ const generateName = () => {
   return string;
 }
 
-
 const NavBar = ({ totalCounters }) => {
   return (
     <nav className="navbar navbar-light">
