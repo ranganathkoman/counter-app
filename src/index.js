@@ -5,9 +5,11 @@ import "./index.css";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
+import gtagFunc from "./rudder/ga";
 
 // ReactDOM.render(<App />, document.getElementById("root"));
 
+gtagFunc();
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
