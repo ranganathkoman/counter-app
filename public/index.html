@@ -28,6 +28,59 @@
       e.load("2Dmwv0Hkb18ldTh6cs4S8zuRKEg","https://rudderstacocr.dataplane.rudderstack.com"),
       e.page(null, null, null, {integrations: {All: true, "Google Analytics 4": false}})}();
       </script> -->
+      <script>
+        rudderanalytics = window.rudderanalytics = [];
+        var methods = [
+          "load",
+          "page",
+          "track",
+          "identify",
+          "alias",
+          "group",
+          "ready",
+          "reset",
+          "getAnonymousId",
+          "setAnonymousId",
+          "getUserId",
+          "getUserTraits",
+          "getGroupId",
+          "getGroupTraits"
+        ];
+        for (var i = 0; i < methods.length; i++) {
+          var method = methods[i];
+          rudderanalytics[method] = (function (methodName) {
+            return function () {
+              rudderanalytics.push(
+                [methodName].concat(Array.prototype.slice.call(arguments))
+              );
+            };
+          })(method);
+        }
+      </script>
+      
+      
+    <script src="https://cdn.rudderlabs.com/v1.1/rudder-analytics.min.js"></script>
+
+    <!-- OneTrust Cookies Consent Notice start for ranganathkoman.github.io -->
+    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="4dc840af-4db6-44b9-89cf-17a16bb202c2-test" ></script>
+    <script type="text/javascript">
+      function OptanonWrapper() { 
+        if (window.OneTrust.IsAlertBoxClosed()) {
+          // Load the SDK
+          rudderanalytics.load("2Dmwv0Hkb18ldTh6cs4S8zuRKEg", "https://rudderstacocr.dataplane.rudderstack.com", {
+            cookieConsentManager: {
+              oneTrust: {
+                enabled: true
+              }
+            },
+            //other options
+          });
+        }
+      }
+    </script>
+    <script src="https://cdn.rudderlabs.com/v1.1/rudder-analytics.min.js"></script>
+    <!-- OneTrust Cookies Consent Notice end for ranganathkoman.github.io -->
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
