@@ -1,7 +1,10 @@
 import * as rudderanalytics from "rudder-sdk-js";
 
-const DATAPLANE_URL = "https://rudderstacocr.dataplane.rudderstack.com";
-const WRITE_KEY = "2Dmwv0Hkb18ldTh6cs4S8zuRKEg";
+// const DATAPLANE_URL = "https://rudderstacocr.dataplane.rudderstack.com";
+// const WRITE_KEY = "2Dmwv0Hkb18ldTh6cs4S8zuRKEg";
+const DATAPLANE_URL = "http://ad666c1660a4f4667829f19e12ee0971-959956009.us-east-1.elb.amazonaws.com:80";
+const WRITE_KEY = "24K9h0TQsACl7HsnmehbLgH5Khq";
+
 
 function rudderInitialize() {
     rudderanalytics.ready(() => {console.log("we are all set!!!")})
@@ -36,26 +39,10 @@ export function eventIdentify(user) {
         );
 }
 
-export function eventPage() {
-        rudderanalytics.page(
-            "Cart",
-            "Cart Viewed",
-            {
-              path:  "xcx123",
-              referrer:  "xc dd",
-              search:  "sefsefes",
-              title:  "edwewde",
-              url:  "wedwedewdew"
-            },
-            {
-              context: {
-                ip:  "0.0.0.0"
-              },
-              anonymousId:  "xx"
-            }, 
-            () => {console.log("in page call");}
-          );
-    console.log("rudder page call");
+export function eventPage(name, payload) {
+  rudderanalytics.page(name, payload, () => {
+    console.log("Hello Woreknknk");
+  });
 }
 
 export function eventTrack(eventName, payload) {

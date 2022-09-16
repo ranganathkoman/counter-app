@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NavBar from "./components/navbar";
 import Counters from "./components/counters";
 import { Routes, Route, NavLink } from "react-router-dom";
+import {eventPage} from './rudder/eventBuilder';
 
 class App extends Component {
   state = {
@@ -47,14 +48,19 @@ class App extends Component {
     window.location.reload();
   };
 
+  handleNavClick = (ev) => {
+    const { innerHTML: pageTitle, href: url, baseURI: referrer } = ev.target
+    eventPage(pageTitle, {url, referrer, sender: "Ranganath"});
+  }
+
   render() {
     return (
       <div className="main__wrap">
         <main className="container">
           <div>
-            <NavLink to="/" end>Home</NavLink> | 
-            <NavLink to="about"> About</NavLink> |
-            <NavLink to="contact"> Contact</NavLink>
+            <NavLink to="/" onClick={this.handleNavClick}>Home</NavLink> | 
+            <NavLink to="about" onClick={this.handleNavClick}>About</NavLink> |
+            <NavLink to="contact" onClick={this.handleNavClick}>Contact</NavLink>
           </div>
           <Routes>
             <Route path="/" element={
