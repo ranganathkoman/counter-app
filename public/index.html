@@ -23,62 +23,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Counter App</title>
-    <!-- <script type="text/javascript">
-      !function(){var e=window.rudderanalytics=window.rudderanalytics||[];e.methods=["load","page","track","identify","alias","group","ready","reset","getAnonymousId","setAnonymousId","getUserId","getUserTraits","getGroupId","getGroupTraits"],e.factory=function(t){return function(){var r=Array.prototype.slice.call(arguments);return r.unshift(t),e.push(r),e}};for(var t=0;t<e.methods.length;t++){var r=e.methods[t];e[r]=e.factory(r)}e.loadJS=function(e,t){var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.rudderlabs.com/v1.1/rudder-analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a)},e.loadJS(),
-      e.load("2Dmwv0Hkb18ldTh6cs4S8zuRKEg","https://rudderstacocr.dataplane.rudderstack.com"),
-      e.page(null, null, null, {integrations: {All: true, "Google Analytics 4": false}})}();
-      </script> -->
-      <script>
-        rudderanalytics = window.rudderanalytics = [];
-        var methods = [
-          "load",
-          "page",
-          "track",
-          "identify",
-          "alias",
-          "group",
-          "ready",
-          "reset",
-          "getAnonymousId",
-          "setAnonymousId",
-          "getUserId",
-          "getUserTraits",
-          "getGroupId",
-          "getGroupTraits"
-        ];
-        for (var i = 0; i < methods.length; i++) {
-          var method = methods[i];
-          rudderanalytics[method] = (function (methodName) {
-            return function () {
-              rudderanalytics.push(
-                [methodName].concat(Array.prototype.slice.call(arguments))
-              );
-            };
-          })(method);
-        }
-      </script>
-      
-      
-    <script src="https://cdn.rudderlabs.com/v1.1/rudder-analytics.min.js"></script>
-
-    <!-- OneTrust Cookies Consent Notice start for ranganathkoman.github.io -->
-    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="4dc840af-4db6-44b9-89cf-17a16bb202c2" ></script>
-    <script type="text/javascript">
-      function OptanonWrapper() { 
-        if (window.OneTrust.IsAlertBoxClosed()) {
-          // Load the SDK
-          rudderanalytics.load("2Dmwv0Hkb18ldTh6cs4S8zuRKEg", "https://rudderstacocr.dataplane.rudderstack.com", {
-            cookieConsentManager: {
-              oneTrust: {
-                enabled: true
-              }
-            },
-            //other options
-          });
-        }
-      }
-    </script>
-    <script src="https://cdn.rudderlabs.com/v1.1/rudder-analytics.min.js"></script>
+    
     <!-- OneTrust Cookies Consent Notice end for ranganathkoman.github.io -->
 
   </head>
