@@ -14,17 +14,8 @@ rudderanalytics.ready(() => {
   console.log("we are all set!!!");
 });
 
-const sendAdblockPageOptions =  {
-  integrations: {
-      All: false,
-      GA4: true
-  }
-}
 
-rudderanalytics.load(WRITE_KEY, DATA_PLANE_URL, {
-  sendAdblockPage: true,
-  sendAdblockPageOptions: sendAdblockPageOptions
-});
+rudderanalytics.load(WRITE_KEY, DATA_PLANE_URL);
 
 rudderanalytics.page();
 // rudderanalytics.load(WRITE_KEY, DATA_PLANE_URL);
