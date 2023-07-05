@@ -1,0 +1,87 @@
+{
+    "anonymousId": "7b23e628-d556-4da1-9cbf-3329bfea65c3",
+    "channel": "web",
+    "context": {
+        "app": {
+            "name": "RudderLabs JavaScript SDK",
+            "namespace": "com.rudderlabs.javascript",
+            "version": "2.29.0"
+        },
+        "campaign": {},
+        "library": {
+            "name": "RudderLabs JavaScript SDK",
+            "version": "2.29.0"
+        },
+        "locale": "en-GB",
+        "os": {
+            "name": "",
+            "version": ""
+        },
+        "sessionId": 1683707989408,
+        "traits": {},
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+    },
+    "event": "Product List Viewed",
+    "integrations": {
+        "All": true,
+        "Google Analytics 4": {
+            "sessionId": "1683707990"
+        }
+    },
+    "messageId": "68f8abb0-e32c-49f9-9ed6-5ce75f906065",
+    "originalTimestamp": "2023-05-10T08:41:42.441Z",
+    "properties": {
+        "category": "Pendants",
+        "list_id": "plp",
+        "products": [
+            {
+                "brand": "Siru Illuminazione",
+                "category": "Lighting , Pendants , ",
+                "image_url": "https://artemest.mo.cloudinary.net/spree/images/68742/product/SIRUVE-07020190531-7-sp5lr3.jpg?tx=f_auto,q_auto,h_512",
+                "name": "Birillo blue pendant light",
+                "position": 1,
+                "price": 360,
+                "product_id": "24407",
+                "sku": "SIRUVE-070",
+                "url": "https://artemest.com/en-gb/products//products/birillo-blue-pendant-light"
+            },
+            {
+                "brand": "Siru Illuminazione",
+                "category": "Lighting , Pendants , ",
+                "image_url": "https://artemest.mo.cloudinary.net/spree/images/68738/product/SIRUVE-06820190531-7-1atsgn5.jpg?tx=f_auto,q_auto,h_512",
+                "name": "Birillo yellow pendant light",
+                "position": 2,
+                "price": 360,
+                "product_id": "24405",
+                "sku": "SIRUVE-068",
+                "url": "https://artemest.com/en-gb/products//products/birillo-yellow-pendant-light"
+            },
+            {
+                "brand": "Siru Illuminazione",
+                "category": "Lighting , Pendants , ",
+                "image_url": "https://artemest.mo.cloudinary.net/spree/images/68736/product/SIRUVE-06720190531-7-1vpekf4.jpg?tx=f_auto,q_auto,h_512",
+                "name": "Birillo dove gray pendant light",
+                "position": 3,
+                "price": 360,
+                "product_id": "24404",
+                "sku": "SIRUVE-067",
+                "url": "https://artemest.com/en-gb/products//products/birillo-dove-gray-pendant-light"
+            },
+            {
+                "brand": "Siru Illuminazione",
+                "category": "Lighting , Pendants , ",
+                "image_url": "https://artemest.mo.cloudinary.net/spree/images/68718/product/SIRUVE-05520190531-7-uk6t50.jpg?tx=f_auto,q_auto,h_512",
+                "name": "Forme large pendant light",
+                "position": 4,
+                "price": 350,
+                "product_id": "24392",
+                "sku": "SIRUVE-055",
+                "url": "https://artemest.com/en-gb/products//products/forme-large-pendant-light"
+            }
+        ]
+    },
+    "rudderId": "c6fd7817-a01f-4e1b-86e1-8b5c70952679",
+    "sentAt": "2023-05-10T08:41:42.446Z",
+    "type": "track",
+    "userId": ""
+}
