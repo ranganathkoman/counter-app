@@ -1,16 +1,18 @@
 {
-  "main.css": "/counter-app/static/css/main.e205c9a2.chunk.css",
-  "main.js": "/counter-app/static/js/main.15ff461e.chunk.js",
-  "main.js.map": "/counter-app/static/js/main.15ff461e.chunk.js.map",
-  "runtime~main.js": "/counter-app/static/js/runtime~main.c63f0888.js",
-  "runtime~main.js.map": "/counter-app/static/js/runtime~main.c63f0888.js.map",
-  "static/css/2.34d7813d.chunk.css": "/counter-app/static/css/2.34d7813d.chunk.css",
-  "static/js/2.7dfd9e61.chunk.js": "/counter-app/static/js/2.7dfd9e61.chunk.js",
-  "static/js/2.7dfd9e61.chunk.js.map": "/counter-app/static/js/2.7dfd9e61.chunk.js.map",
-  "index.html": "/counter-app/index.html",
-  "precache-manifest.d32b0f06690387d6e00c3217c76d5200.js": "/counter-app/precache-manifest.d32b0f06690387d6e00c3217c76d5200.js",
-  "service-worker.js": "/counter-app/service-worker.js",
-  "static/css/2.34d7813d.chunk.css.map": "/counter-app/static/css/2.34d7813d.chunk.css.map",
-  "static/css/main.e205c9a2.chunk.css.map": "/counter-app/static/css/main.e205c9a2.chunk.css.map",
-  "static/media/font-awesome.css": "/counter-app/static/media/fontawesome-webfont.fee66e71.woff"
+  "files": {
+    "main.css": "/counter-app/static/css/main.465e3642.css",
+    "main.js": "/counter-app/static/js/main.6532389e.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/counter-app/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/counter-app/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/counter-app/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/counter-app/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/counter-app/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/counter-app/index.html",
+    "main.465e3642.css.map": "/counter-app/static/css/main.465e3642.css.map",
+    "main.6532389e.js.map": "/counter-app/static/js/main.6532389e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.465e3642.css",
+    "static/js/main.6532389e.js"
+  ]
 }
