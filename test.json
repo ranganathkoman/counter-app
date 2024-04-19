@@ -1,0 +1,470 @@
+{
+    "type": "track",
+    "event": "Order Created",
+    "sentAt": "2024-04-04T18:46:48.476Z",
+    "traits": {
+        "tags": "",
+        "email": "brimorrow0987@gmail.com",
+        "state": "disabled",
+        "address": {
+            "id": 8126057349213,
+            "zip": "30066",
+            "city": "Marietta",
+            "name": "Briana Morrow",
+            "phone": "(470) 350-8274",
+            "company": null,
+            "country": "United States",
+            "default": true,
+            "address1": "3894 Clarington Dr",
+            "address2": "",
+            "province": "Georgia",
+            "last_name": "Morrow",
+            "first_name": "Briana",
+            "customer_id": 6783264653405,
+            "country_code": "US",
+            "country_name": "United States",
+            "province_code": "GA"
+        },
+        "currency": "USD",
+        "lastName": "Morrow",
+        "firstName": "Briana",
+        "taxExempt": false,
+        "taxExemptions": [],
+        "verifiedEmail": true,
+        "billingAddress": {
+            "zip": "30066",
+            "city": "Marietta",
+            "name": "Briana Morrow",
+            "phone": "(470) 350-8274",
+            "company": null,
+            "country": "United States",
+            "address1": "3894 Clarington Dr",
+            "address2": "",
+            "latitude": 34.0454087,
+            "province": "Georgia",
+            "last_name": "Morrow",
+            "longitude": -84.5300622,
+            "first_name": "Briana",
+            "country_code": "US",
+            "province_code": "GA"
+        },
+        "shippingAddress": {
+            "zip": "30066",
+            "city": "Marietta",
+            "name": "Briana Morrow",
+            "phone": "(470) 350-8274",
+            "company": null,
+            "country": "United States",
+            "address1": "3894 Clarington Dr",
+            "address2": "",
+            "latitude": 34.0454087,
+            "province": "Georgia",
+            "last_name": "Morrow",
+            "longitude": -84.5300622,
+            "first_name": "Briana",
+            "country_code": "US",
+            "province_code": "GA"
+        },
+        "acceptsMarketing": true,
+        "adminGraphqlApiId": "gid://shopify/Customer/6783264653405",
+        "marketingOptInLevel": "single_opt_in",
+        "acceptsMarketingUpdatedAt": "2024-04-04T11:46:26-07:00"
+    },
+    "userId": "6783264653405",
+    "context": {
+        "topic": "orders_create",
+        "library": {
+            "name": "RudderStack Shopify Cloud",
+            "version": "1.0.0"
+        },
+        "cart_token": "e98f129b684fccee3312bd64544b4cbd",
+        "integration": {
+            "name": "SHOPIFY"
+        },
+        "checkout_token": "5d08dab2586bc04d3ca1fd7d6a9af56a"
+    },
+    "rudderId": "91d89db7-4d7e-42d9-bdcd-c789f4734705",
+    "messageId": "951f4b6d-b2b1-42ec-8f5e-62e8336cb2de",
+    "timestamp": "2024-04-04T18:46:42.000Z",
+    "properties": {
+        "tax": "0.00",
+        "name": "90163032",
+        "note": "",
+        "tags": "",
+        "test": false,
+        "email": "brimorrow0987@gmail.com",
+        "token": "46cc443a5b9bc5b11381699db1938397",
+        "value": "0.00",
+        "app_id": 3152003,
+        "number": 162032,
+        "refunds": [],
+        "currency": "USD",
+        "order_id": 5672644345949,
+        "products": [
+            {
+                "id": 13376354910301,
+                "sku": "vow_ring_sizer",
+                "brand": "Vrai & Oro",
+                "grams": 45,
+                "price": "0.00",
+                "title": "Ring Sizer",
+                "duties": [],
+                "taxable": true,
+                "variant": "32905666134109  ONE",
+                "quantity": 1,
+                "gift_card": false,
+                "price_set": {
+                    "shop_money": {
+                        "amount": "0.00",
+                        "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                        "amount": "0.00",
+                        "currency_code": "USD"
+                    }
+                },
+                "tax_lines": [
+                    {
+                        "rate": 0.04,
+                        "price": "0.00",
+                        "title": "GA STATE TAX",
+                        "price_set": {
+                            "shop_money": {
+                                "amount": "0.00",
+                                "currency_code": "USD"
+                            },
+                            "presentment_money": {
+                                "amount": "0.00",
+                                "currency_code": "USD"
+                            }
+                        },
+                        "channel_liable": false
+                    },
+                    {
+                        "rate": 0.02,
+                        "price": "0.00",
+                        "title": "GA COUNTY TAX",
+                        "price_set": {
+                            "shop_money": {
+                                "amount": "0.00",
+                                "currency_code": "USD"
+                            },
+                            "presentment_money": {
+                                "amount": "0.00",
+                                "currency_code": "USD"
+                            }
+                        },
+                        "channel_liable": false
+                    }
+                ],
+                "product_id": 1388099633218,
+                "properties": [
+                    {
+                        "name": "_productTitle",
+                        "value": "Ring Sizer"
+                    },
+                    {
+                        "name": "productAsset",
+                        "value": "https://www.datocms-assets.com/25216/1603495825-image-2020-ring-sizer-silk.jpg"
+                    },
+                    {
+                        "name": "_productAssetObject",
+                        "value": "{\"src\":\"https://www.datocms-assets.com/25216/1603495825-image-2020-ring-sizer-silk.jpg\",\"width\":1527,\"height\":1527,\"responsiveImage\":{\"src\":\"https://www.datocms-assets.com/25216/1603495825-image-2020-ring-sizer-silk.jpg\",\"base64\":\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHBwgHBgkNCBIODQ0NBxEHDgcIChEJFhENFxMZGBYVFhUaHysjGh0oHSEWJDUlKC0vMjIyGSI4PTcwPCsxMi8BCgsLBQYOEBAFEC8cFhwvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vL//AABEIABcAGAMBIgACEQEDEQH/xAAZAAEAAgMAAAAAAAAAAAAAAAAAAwUCBAf/xAAbEAACAgMBAAAAAAAAAAAAAAAAAgEDBBESIv/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A6QzRMk6NHJXzfBPTbslLYtnyCDIu0oAqmfUElOTyABnbkdKAAP/Z\",\"height\":1440,\"width\":1527}}"
+                    },
+                    {
+                        "name": "_dateAdded",
+                        "value": "1712256351158"
+                    },
+                    {
+                        "name": "_productType",
+                        "value": "Ring Sizer"
+                    },
+                    {
+                        "name": "_productTypeTranslated",
+                        "value": "Ring sizer"
+                    },
+                    {
+                        "name": "shippingTimeStamp",
+                        "value": "2024-04-05T14:00:00.000-04:00"
+                    },
+                    {
+                        "name": "productGroupKey",
+                        "value": "eea3e343-d233-44ab-a92a-a102f983dd0d"
+                    },
+                    {
+                        "name": "pdpUrl",
+                        "value": "https://www.vrai.com/ring-sizer"
+                    },
+                    {
+                        "name": "feedId",
+                        "value": "32905666134109"
+                    },
+                    {
+                        "name": "shippingBusinessDays",
+                        "value": "1"
+                    },
+                    {
+                        "name": "shippingText",
+                        "value": "Ships by"
+                    }
+                ],
+                "pre_tax_price": "0.00",
+                "product_exists": true,
+                "total_discount": "0.00",
+                "attributed_staffs": [],
+                "pre_tax_price_set": {
+                    "shop_money": {
+                        "amount": "0.00",
+                        "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                        "amount": "0.00",
+                        "currency_code": "USD"
+                    }
+                },
+                "requires_shipping": true,
+                "fulfillment_status": null,
+                "total_discount_set": {
+                    "shop_money": {
+                        "amount": "0.00",
+                        "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                        "amount": "0.00",
+                        "currency_code": "USD"
+                    }
+                },
+                "fulfillment_service": "manual",
+                "admin_graphql_api_id": "gid://shopify/LineItem/13376354910301",
+                "discount_allocations": [],
+                "fulfillable_quantity": 1,
+                "variant_inventory_management": "shopify"
+            }
+        ],
+        "confirmed": true,
+        "tax_lines": [],
+        "browser_ip": "2600:1700:42d0:ac90:61cd:2bdb:b2cc:47cb",
+        "cart_token": "e98f129b684fccee3312bd64544b4cbd",
+        "created_at": "2024-04-04T11:46:41-07:00",
+        "tax_exempt": false,
+        "updated_at": "2024-04-04T11:46:42-07:00",
+        "checkout_id": 32707370745949,
+        "source_name": "web",
+        "fulfillments": [],
+        "order_number": 163032,
+        "processed_at": "2024-04-04T11:46:40-07:00",
+        "total_weight": 45,
+        "contact_email": "brimorrow0987@gmail.com",
+        "total_tax_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            }
+        },
+        "checkout_token": "5d08dab2586bc04d3ca1fd7d6a9af56a",
+        "client_details": {
+            "browser_ip": "2600:1700:42d0:ac90:61cd:2bdb:b2cc:47cb",
+            "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Mobile/15E148 Safari/604.1",
+            "session_hash": null,
+            "browser_width": 390,
+            "browser_height": 664,
+            "accept_language": "en-US,en;q=0.9"
+        },
+        "discount_codes": [],
+        "shipping_lines": [
+            {
+                "id": 4894025154653,
+                "code": "USPS",
+                "phone": null,
+                "price": "0.00",
+                "title": "USPS",
+                "source": "shopify",
+                "price_set": {
+                    "shop_money": {
+                        "amount": "0.00",
+                        "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                        "amount": "0.00",
+                        "currency_code": "USD"
+                    }
+                },
+                "tax_lines": [
+                    {
+                        "rate": 0.04,
+                        "price": "0.00",
+                        "title": "GA STATE TAX",
+                        "price_set": {
+                            "shop_money": {
+                                "amount": "0.00",
+                                "currency_code": "USD"
+                            },
+                            "presentment_money": {
+                                "amount": "0.00",
+                                "currency_code": "USD"
+                            }
+                        },
+                        "channel_liable": false
+                    },
+                    {
+                        "rate": 0.02,
+                        "price": "0.00",
+                        "title": "GA COUNTY TAX",
+                        "price_set": {
+                            "shop_money": {
+                                "amount": "0.00",
+                                "currency_code": "USD"
+                            },
+                            "presentment_money": {
+                                "amount": "0.00",
+                                "currency_code": "USD"
+                            }
+                        },
+                        "channel_liable": false
+                    }
+                ],
+                "discounted_price": "0.00",
+                "carrier_identifier": null,
+                "discount_allocations": [],
+                "discounted_price_set": {
+                    "shop_money": {
+                        "amount": "0.00",
+                        "currency_code": "USD"
+                    },
+                    "presentment_money": {
+                        "amount": "0.00",
+                        "currency_code": "USD"
+                    }
+                },
+                "requested_fulfillment_service_id": null
+            }
+        ],
+        "subtotal_price": "0.00",
+        "taxes_included": false,
+        "customer_locale": "en",
+        "estimated_taxes": false,
+        "note_attributes": [
+            {
+                "name": "locale",
+                "value": "en"
+            }
+        ],
+        "total_discounts": "0.00",
+        "total_price_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            }
+        },
+        "financial_status": "paid",
+        "order_status_url": "https://checkout.vrai.com/3140681794/orders/46cc443a5b9bc5b11381699db1938397/authenticate?key=c139f12d3cdd214a53b6aac8468584f7",
+        "current_total_tax": "0.00",
+        "total_outstanding": "0.00",
+        "subtotal_price_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            }
+        },
+        "total_tip_received": "0.00",
+        "confirmation_number": "3X3F0Z2FE",
+        "current_total_price": "0.00",
+        "total_discounts_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            }
+        },
+        "admin_graphql_api_id": "gid://shopify/Order/5672644345949",
+        "presentment_currency": "USD",
+        "current_total_tax_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            }
+        },
+        "discount_applications": [],
+        "payment_gateway_names": [],
+        "current_subtotal_price": "0.00",
+        "total_line_items_price": "0.00",
+        "buyer_accepts_marketing": true,
+        "current_total_discounts": "0.00",
+        "current_total_price_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            }
+        },
+        "total_shipping_price_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            }
+        },
+        "current_subtotal_price_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            }
+        },
+        "total_line_items_price_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            }
+        },
+        "current_total_discounts_set": {
+            "shop_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            },
+            "presentment_money": {
+                "amount": "0.00",
+                "currency_code": "USD"
+            }
+        }
+    },
+    "receivedAt": "2024-04-04T18:46:47.702Z",
+    "request_ip": "35.243.226.186",
+    "anonymousId": "9642341c-bf61-5762-aae6-e3466a32fa8d",
+    "integrations": {
+        "SHOPIFY": true
+    },
+    "originalTimestamp": "2024-04-04T18:46:48.476Z"
+}
